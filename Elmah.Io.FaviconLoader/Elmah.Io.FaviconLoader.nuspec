@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <version>$version$</version>
+    <authors>elmah.io</authors>
+    <owners />
+    <dependencies>
+      <dependency id="HtmlAgilityPack" version="1.4.6" />
+    </dependencies>
+    <id>FaviconLoader</id>
+    <title>FaviconLoader</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Nice little tool for getting the URL of the favicon for any website.</description>
+    <projectUrl>https://github.com/elmahio/Elmah.Io.FaviconLoader</projectUrl>
+  </metadata>
+  <files>
+    <file src="bin\$Configuration$\Elmah.Io.FaviconLoader.dll" target="lib\net40\Elmah.Io.FaviconLoader.dll" />
+    <file src="bin\$Configuration$\Elmah.Io.FaviconLoader.pdb" target="lib\net40\Elmah.Io.FaviconLoader.pdb" />
+  </files>
+</package>
