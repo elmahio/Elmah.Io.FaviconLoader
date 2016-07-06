@@ -9,9 +9,9 @@ namespace Elmah.Io.FaviconLoader.Tests
         public void CanGetFaviconIco()
         {
             var favicon = new Favicon();
-            var faviconUrl = favicon.Load(new Uri("http://elmahio.azurewebsites.net"));
+            var faviconUrl = favicon.Load(new Uri("https://elmah.io"));
             Assert.That(faviconUrl != null);
-            Assert.That(faviconUrl.ToString(), Is.EqualTo("http://elmahio.azurewebsites.net/favicon.ico"));
+            Assert.That(faviconUrl.ToString(), Is.EqualTo("https://elmah.io/favicon.ico"));
         }
     }
 }
